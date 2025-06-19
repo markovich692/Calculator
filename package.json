@@ -4,11 +4,17 @@
   "description": "Calculator",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:parcel": "parcel ./index.hmtl dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "parcel": "^2.15.2",
     "sass": "^1.89.2"
+  },
+  "dependencies": {
+    "core-js": "^3.43.0",
+    "regenerator-runtime": "^0.14.1"
   }
 }
