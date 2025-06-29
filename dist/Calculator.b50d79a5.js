@@ -667,7 +667,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"kQxzB":[function(require,module,exports,__globalThis) {
+var _mainScss = require("../sass/main.scss");
 
-},{}]},["bwZBh","kQxzB"], "kQxzB", "parcelRequireff1f", {})
+},{"../sass/main.scss":"dFl68"}],"dFl68":[function() {},{}]},["bwZBh","kQxzB"], "kQxzB", "parcelRequireff1f", {})
 
 //# sourceMappingURL=Calculator.b50d79a5.js.map
