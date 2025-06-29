@@ -4,7 +4,9 @@
   "description": "Calculator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf .parcel-cache dist",
     "compile:parcel": "parcel index.html",
+    "dev": "npm-run-all clean compile:parcel",
     "build:parcel": "parcel build index.html"
   },
   "author": "",
