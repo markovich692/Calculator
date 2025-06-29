@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "Calculator",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "parcel:rmcache": "rm -rf .parcel-cache dist",
     "parcel:compile": "parcel index.html",
-    "parcel:watch": "nodemon --watch src --watch index.html --ext js,scss,html --exec \"parcel index.html\"",
-    "dev": "npm-run-all parcel:rmcache parcel:watch",
-    "parcel:build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir dist --public-url ./"
   },
   "author": "Marc Diallo",
   "license": "ISC",
