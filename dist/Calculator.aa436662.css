@@ -10,15 +10,19 @@ html {
 }
 
 body {
+  background-color: #ff4500;
   font-family: Source Code Pro, monospace, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.7;
+  position: relative;
 }
 
 .calc-container {
   background-color: #add8e6;
-  width: 80rem;
-  height: 80rem;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 /*# sourceMappingURL=Calculator.aa436662.css.map */
