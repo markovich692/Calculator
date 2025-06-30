@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "Calculator",
   "scripts": {
-    "parcel:clean": "rm -rf .parcel-cache dist",
-    "parcel:build": "parcel build index.html --dist-dir dist --public-url ./",
-    "parcel:compile": "parcel index.html",
-    "parcel:watch": "nodemon --watch src --watch index.html --ext scss,js,html --exec \"npm run parcel:build\"",
-    "serve": "live-server dist",
-    "dev": "npm-run-all parcel:clean --parallel parcel:watch serve"
+    "clean": "rm -rf .parcel-cache dist",
+    "parcel:serve": "parcel index.html",
+    "dev": "npm-run-all clean parcel:serve",
+    "parcel:build": "parcel build index.html --dist-dir dist --public-url ./"
   },
   "author": "Marc Diallo",
   "license": "ISC",
