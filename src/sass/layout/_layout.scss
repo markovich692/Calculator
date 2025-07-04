@@ -1,9 +1,0 @@
-@use "../abstracts/index" as *;
-
-body {
-  font-family: "Source Code Pro", monospace, sans-serif;
-  line-height: 1.6;
-  font-weight: 400;
-  min-height: 100vh;
-  background-color: $color-primary;
-}
